@@ -1,0 +1,38 @@
+ .container-booked{
+    margin: 100px 100px;
+    padding: 20px 0;
+    height: 100vh;
+
+}
+th{
+width: 100%;
+}
+.btn-booked{
+        color: black;
+        background-color: red;
+        border-radius: 2;
+        border-radius: 10px;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+}
+.btn-booked:hover{
+    color: white;
+}
+ th, td {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 15px;
+    text-align: center;
+}
+th{
+    border-bottom: 2px solid black;
+}
+table{
+ width: 75%;   
+ display: block;
+ margin: auto;
+}
+tr:nth-child(even){
+    background-color: rgb(180, 175, 175);
+}
